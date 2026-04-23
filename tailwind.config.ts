@@ -59,7 +59,7 @@ export default {
 				},
 				neon: {
 					cyan: '#f5a623',
-					purple: '#c0622f',
+					purple: '#8b5cf6',
 					orange: '#e8732a',
 					green: '#d4a843',
 				},

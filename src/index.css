@@ -16,8 +16,8 @@
     --primary: 36 100% 56%;
     --primary-foreground: 24 18% 5%;
 
-    --secondary: 18 75% 46%;
-    --secondary-foreground: 36 55% 93%;
+    --secondary: 270 70% 55%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 24 13% 14%;
     --muted-foreground: 30 16% 50%;
@@ -35,7 +35,7 @@
     --radius: 0.75rem;
 
     --neon-cyan: #f5a623;
-    --neon-purple: #c0622f;
+    --neon-purple: #8b5cf6;
     --neon-orange: #e8732a;
     --neon-green: #d4a843;
 
@@ -79,8 +79,8 @@
   .neon-text-purple {
     color: var(--neon-purple);
     text-shadow:
-      0 0 20px rgba(192, 98, 47, 0.6),
-      0 0 40px rgba(192, 98, 47, 0.25);
+      0 0 20px rgba(139, 92, 246, 0.6),
+      0 0 40px rgba(139, 92, 246, 0.25);
   }
 
   .neon-border-cyan {
@@ -98,8 +98,8 @@
 
   .neon-glow-purple {
     box-shadow:
-      0 0 20px rgba(192, 98, 47, 0.45),
-      0 0 60px rgba(192, 98, 47, 0.15);
+      0 0 20px rgba(139, 92, 246, 0.45),
+      0 0 60px rgba(139, 92, 246, 0.15);
   }
 
   .glass {
