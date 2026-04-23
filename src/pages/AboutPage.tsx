@@ -31,10 +31,10 @@ export default function AboutPage({ onNavigate }: AboutPageProps) {
               <span className="text-sm font-golos text-neon-purple">15 лет на рынке электроники</span>
             </div>
             <h1 className="font-oswald font-black text-6xl text-foreground leading-tight mb-6">
-              МЫ — <span className="neon-text-purple">TECHZONE</span>
+              МЫ — <span className="neon-text-purple">HUSKОВИЧ</span>
             </h1>
             <p className="text-lg font-golos text-muted-foreground leading-relaxed mb-6">
-              TechZone — это команда настоящих энтузиастов технологий. Мы помогаем людям выбирать 
+              Huskович — это команда настоящих энтузиастов технологий. Мы помогаем людям выбирать 
               лучшую технику и получать удовольствие от каждой покупки с 2009 года.
             </p>
             <p className="text-base font-golos text-muted-foreground leading-relaxed mb-8">

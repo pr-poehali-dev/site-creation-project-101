@@ -28,10 +28,10 @@ export default function Navbar({ currentPage, onNavigate, cartCount }: NavbarPro
             className="flex items-center gap-2 group"
           >
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-neon-cyan to-neon-purple flex items-center justify-center neon-glow-cyan">
-              <span className="text-background font-oswald font-bold text-sm">TZ</span>
+              <span className="text-background font-oswald font-bold text-sm">H</span>
             </div>
             <span className="font-oswald font-bold text-xl tracking-wider">
-              TECH<span className="neon-text-cyan">ZONE</span>
+              Husky<span className="neon-text-cyan">вич</span>
             </span>
           </button>
 

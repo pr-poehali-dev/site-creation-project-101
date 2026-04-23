@@ -170,7 +170,7 @@ export default function HomePage({ onNavigate, onAddToCart }: HomePageProps) {
       <section className="py-16 bg-card/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-oswald font-bold text-4xl text-foreground mb-12 text-center">
-            ПОЧЕМУ <span className="neon-text-cyan">TECHZONE</span>
+            ПОЧЕМУ <span className="neon-text-cyan">HUSKОВИЧ</span>
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[

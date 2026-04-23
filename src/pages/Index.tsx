@@ -70,14 +70,14 @@ export default function Index() {
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
               <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-neon-cyan to-neon-purple flex items-center justify-center">
-                <span className="text-background font-oswald font-bold text-xs">TZ</span>
+                <span className="text-background font-oswald font-bold text-xs">H</span>
               </div>
               <span className="font-oswald font-bold text-lg tracking-wider">
-                TECH<span className="neon-text-cyan">ZONE</span>
+                Husky<span className="neon-text-cyan">вич</span>
               </span>
             </div>
             <p className="text-xs text-muted-foreground font-golos text-center">
-              © 2025 TechZone. Лучшая электроника по лучшим ценам.
+              © 2025 Huskович. Лучшая электроника по лучшим ценам.
             </p>
             <div className="flex gap-4 text-xs text-muted-foreground font-golos">
               <button className="hover:text-neon-cyan transition-colors">Оферта</button>
