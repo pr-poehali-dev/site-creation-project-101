@@ -4,49 +4,49 @@
 
 @layer base {
   :root {
-    --background: 220 20% 6%;
-    --foreground: 210 40% 96%;
+    --background: 24 18% 5%;
+    --foreground: 36 55% 93%;
 
-    --card: 220 18% 9%;
-    --card-foreground: 210 40% 96%;
+    --card: 24 16% 8%;
+    --card-foreground: 36 55% 93%;
 
-    --popover: 220 18% 9%;
-    --popover-foreground: 210 40% 96%;
+    --popover: 24 16% 8%;
+    --popover-foreground: 36 55% 93%;
 
-    --primary: 195 100% 50%;
-    --primary-foreground: 220 20% 6%;
+    --primary: 36 100% 56%;
+    --primary-foreground: 24 18% 5%;
 
-    --secondary: 262 80% 60%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 18 75% 46%;
+    --secondary-foreground: 36 55% 93%;
 
-    --muted: 220 15% 15%;
-    --muted-foreground: 215 20% 55%;
+    --muted: 24 13% 14%;
+    --muted-foreground: 30 16% 50%;
 
-    --accent: 38 100% 55%;
-    --accent-foreground: 220 20% 6%;
+    --accent: 44 92% 62%;
+    --accent-foreground: 24 18% 5%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 36 55% 93%;
 
-    --border: 220 15% 18%;
-    --input: 220 15% 14%;
-    --ring: 195 100% 50%;
+    --border: 24 13% 17%;
+    --input: 24 13% 12%;
+    --ring: 36 100% 56%;
 
     --radius: 0.75rem;
 
-    --neon-cyan: #00d4ff;
-    --neon-purple: #8b5cf6;
-    --neon-orange: #ff8c00;
-    --neon-green: #00ff88;
+    --neon-cyan: #f5a623;
+    --neon-purple: #c0622f;
+    --neon-orange: #e8732a;
+    --neon-green: #d4a843;
 
-    --sidebar-background: 220 18% 9%;
-    --sidebar-foreground: 210 40% 96%;
-    --sidebar-primary: 195 100% 50%;
-    --sidebar-primary-foreground: 220 20% 6%;
-    --sidebar-accent: 220 15% 15%;
-    --sidebar-accent-foreground: 210 40% 96%;
-    --sidebar-border: 220 15% 18%;
-    --sidebar-ring: 195 100% 50%;
+    --sidebar-background: 24 16% 8%;
+    --sidebar-foreground: 36 55% 93%;
+    --sidebar-primary: 36 100% 56%;
+    --sidebar-primary-foreground: 24 18% 5%;
+    --sidebar-accent: 24 13% 14%;
+    --sidebar-accent-foreground: 36 55% 93%;
+    --sidebar-border: 24 13% 17%;
+    --sidebar-ring: 36 100% 56%;
   }
 }
 
@@ -72,46 +72,46 @@
   .neon-text-cyan {
     color: var(--neon-cyan);
     text-shadow:
-      0 0 20px rgba(0, 212, 255, 0.7),
-      0 0 40px rgba(0, 212, 255, 0.3);
+      0 0 20px rgba(245, 166, 35, 0.6),
+      0 0 40px rgba(245, 166, 35, 0.25);
   }
 
   .neon-text-purple {
     color: var(--neon-purple);
     text-shadow:
-      0 0 20px rgba(139, 92, 246, 0.7),
-      0 0 40px rgba(139, 92, 246, 0.3);
+      0 0 20px rgba(192, 98, 47, 0.6),
+      0 0 40px rgba(192, 98, 47, 0.25);
   }
 
   .neon-border-cyan {
     border-color: var(--neon-cyan);
     box-shadow:
-      0 0 15px rgba(0, 212, 255, 0.3),
-      inset 0 0 15px rgba(0, 212, 255, 0.05);
+      0 0 15px rgba(245, 166, 35, 0.25),
+      inset 0 0 15px rgba(245, 166, 35, 0.05);
   }
 
   .neon-glow-cyan {
     box-shadow:
-      0 0 20px rgba(0, 212, 255, 0.4),
-      0 0 60px rgba(0, 212, 255, 0.15);
+      0 0 20px rgba(245, 166, 35, 0.45),
+      0 0 60px rgba(245, 166, 35, 0.15);
   }
 
   .neon-glow-purple {
     box-shadow:
-      0 0 20px rgba(139, 92, 246, 0.4),
-      0 0 60px rgba(139, 92, 246, 0.15);
+      0 0 20px rgba(192, 98, 47, 0.45),
+      0 0 60px rgba(192, 98, 47, 0.15);
   }
 
   .glass {
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(255, 220, 150, 0.03);
     backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 200, 100, 0.08);
   }
 
   .grid-bg {
     background-image:
-      linear-gradient(rgba(0, 212, 255, 0.03) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(0, 212, 255, 0.03) 1px, transparent 1px);
+      linear-gradient(rgba(245, 166, 35, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(245, 166, 35, 0.04) 1px, transparent 1px);
     background-size: 60px 60px;
   }
 
@@ -122,9 +122,9 @@
   .card-hover:hover {
     transform: translateY(-6px);
     box-shadow:
-      0 20px 60px rgba(0, 212, 255, 0.2),
-      0 0 30px rgba(139, 92, 246, 0.1);
-    border-color: rgba(0, 212, 255, 0.4);
+      0 20px 60px rgba(245, 166, 35, 0.18),
+      0 0 30px rgba(192, 98, 47, 0.1);
+    border-color: rgba(245, 166, 35, 0.35);
   }
 
   @keyframes float {
